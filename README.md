@@ -21,4 +21,11 @@ Also, as can be gleaned from the file name, the dataset does not require any cle
 
 ## Results:
 
-The clear winner is the Random Forest algorithm. Ensemble methods like the Random Forest classifier are a particulary excellent way of dealing with classification problems, even though they are significantly more computationally expensive. This is evidenced by an 84% accuracy rate for the Random Forest algorithm, compared to the second best Logistic Regression, with an accuracy rate of 75%!
+The clear winner is the Random Forest algorithm. Ensemble methods like the Random Forest classifier are a particulary excellent way of dealing with classification problems, even though they are significantly more computationally expensive. This is evidenced by an 84% accuracy rate for the Random Forest algorithm, compared to the second best Logistic Regression, with an accuracy rate of 75%. The complete results table can be seen below:
+
+| Classifier  | Accuracy | F1  | AUC |
+| ------------- | ------------- | ------------- | ------------- |
+| K-Nearest Neighbours | 71.58% |	0.71 | 0.687 |
+| Linear SVC | 74.21% | 0.74 | 0.735 |
+| Logistic Regression | 75.79% | 0.76 | 0.749 |
+| Random Forest | 84.21% | 0.84| 0.839 |
